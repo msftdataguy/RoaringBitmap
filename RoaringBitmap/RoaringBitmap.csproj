@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <PackageProjectUrl>https://github.com/Tornhoof/RoaringBitmap</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/Tornhoof/RoaringBitmap/blob/master/LICENSE</PackageLicenseUrl>
     <PackageTags>RoaringBitmap</PackageTags>
@@ -12,15 +12,8 @@
     <Authors>RoaringBitmap Contributors</Authors>
     <Copyright>Copyright © RoaringBitmap Contributors 2017</Copyright>
     <Product>Roaring Bitmap</Product>
-    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Collections" Version="4.3.0" />
-    <PackageReference Include="System.Linq" Version="4.3.0" />
-    <PackageReference Include="System.Runtime" Version="4.3.0" />
-    <PackageReference Include="System.Runtime.Extensions" Version="4.3.0" />
-    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
-  </ItemGroup>
 
 </Project>
